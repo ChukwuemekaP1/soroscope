@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "core",
+    "contracts/token",
+    "contracts/hello_soroban",
+    "contracts/storage_heavy",
+    "contracts/liquidity_pool",
+    "contracts/cpu_heavy",
+    "contracts/cross_call",
+    "contracts/factory",
+]
